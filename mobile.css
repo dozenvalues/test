@@ -1,63 +1,65 @@
 @media screen and (max-width: 600px) {
-    html {
-        overflow-x: hidden;
-    }
-    body {
-        width: unset;
-        max-width: 1024px;
-        padding: 2rem;
-    }
-    p {
-        font-size: 1rem;
-        margin: 0.5rem;
-    }
-    p.question {
-        margin: auto;
-        margin-bottom: 16pt;
-        width: 100%;
-        box-sizing: border-box;
-        font-size: 1.5rem;
-        display: flex;
+	html {
+		overflow-x: hidden;
+	}
+	body {
+		width: unset;
+		max-width: 1024px;
+		padding: 2rem;
+	}
+	p {
+		font-size: 1rem;
+		margin: 0.5rem;
+	}
+	p.question {
+		margin: auto;
+		margin-bottom: 16pt;
+		width: 100%;
+		box-sizing: border-box;
+		font-size: 1.5rem;
+		display: flex;
 
-        min-width: 0;
-        min-height: 0;
-    }
-    h1 {
-        font-size: 4rem;
-        line-height: 4rem;
-    }
-    h2 {
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-        margin-top: 1rem;
-        margin-bottom: 0;
-    }
-    img.center {
-        width: 100%;
-        min-width: 0;
-    }
-    .button {
-        width: 100%;
-        font-size: 1.5rem;
+		min-width: 0;
+		min-height: 0;
+	}
+	h1 {
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+		line-height: 2.5rem;
+		margin-top: 1rem;
+		margin-bottom: 0;
+	}
+	img.center {
+		width: 100%;
+		min-width: 0;
+	}
+	.button {
+		width: 100%;
+		font-size: 1.5rem;
 
-        padding: 0;
-        min-width: 0;
-    }
-    .small_button, .small_button_off {
-        font-size: 1.5rem;
-    }
-    div.bar {
-        height: 1rem;
-        width: unset;
-    }
-    div.text-wrapper {
-        font-size: 2rem;
-        line-height: 1rem;
-    }
-    div img {
-        height: 50pt;
-    }
-    #banner {
-        width: 100%;
-    }
+		padding: 0;
+		min-width: 0;
+	}
+	.small_button,
+	.small_button_off {
+		font-size: 1.5rem;
+	}
+	div.bar {
+		height: 1rem;
+		width: unset;
+	}
+	div.text-wrapper {
+		width: 4rem;
+		font-size: 1.5rem;
+		line-height: 1rem;
+	}
+	div img {
+		height: 50pt;
+	}
+	#banner {
+		width: 100%;
+	}
 }
